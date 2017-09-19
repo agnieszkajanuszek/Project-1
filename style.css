@@ -223,7 +223,7 @@ nav {
   background: url("./images/work8.jpg") no-repeat;
   background-size: cover;
 }
-.stripe {
+.stripe, .stripe2 {
   background: #ffffff;
   height: 80px;
   width: 70%;
@@ -231,7 +231,7 @@ nav {
   left: 0;
   bottom: 0;
 }
-.stripe h4 {
+.stripe h4, .stripe2 h4 {
   color: #000000;
   font-family: 'Teko', sans-serif;
   font-weight: 400;
@@ -239,7 +239,7 @@ nav {
   letter-spacing: 2px;
   padding: 10px 0 0 20px;
 }
-.stripe p {
+.stripe p, .stripe2 p {
   color: #444444;
   font-family: 'Teko', sans-serif;
   font-weight: 400;
@@ -284,8 +284,192 @@ nav {
 }
 .clients-content {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 100px;
+
 }
 .client-logo {
-  width: 16.6666666667%;
+  width: 15%;
+  height: 100px;
+  margin-bottom: 100px;
+}
+.logo1 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/logo1.png") no-repeat center center;
+  background-size: contain;
+
+}
+.logo2 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/logo2.png") no-repeat center center;
+  background-size: contain;
+}
+.logo3 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/logo3.png") no-repeat center center;
+  background-size: contain;
+}
+.logo4 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/logo4.png") no-repeat center center;
+  background-size: contain;
+}
+.logo5 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/logo5.png") no-repeat center center;
+  background-size: contain;
+}
+.logo6 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/logo6.png") no-repeat center center;
+  background-size: contain;
+}
+.logo7 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/logo7.png") no-repeat center center;
+  background-size: contain;
+}
+.logo8 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/logo8.png") no-repeat center center;
+  background-size: contain;
+}
+.logo9 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/logo9.png") no-repeat center center;
+  background-size: contain;
+}
+.logo10 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/logo10.png") no-repeat center center;
+  background-size: contain;
+}
+.logo11 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/logo11.png") no-repeat center center;
+  background-size: contain;
+}
+.logo12 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/logo12.png") no-repeat center center;
+  background-size: contain;
+}
+.people-photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.photo {
+  width: 25%;
+  height: 300px;
+  position: relative;
+}
+.person1 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/person1.jpg") no-repeat center center;
+  background-size: cover;
+}
+.person2 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/person2.jpg") no-repeat center center;
+  background-size: cover;
+}
+.person3 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/person3.jpg") no-repeat center center;
+  background-size: cover;
+}
+.person4 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/person4.jpg") no-repeat center center;
+  background-size: cover;
+
+}
+.person5 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/person5.jpg") no-repeat center center;
+  background-size: cover;
+}
+.person6 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/person6.jpg") no-repeat center center;
+  background-size: cover;
+}
+.person7 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/person7.jpg") no-repeat center center;
+  background-size: cover;
+}
+.person8 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/person8.jpg") no-repeat center center;
+  background-size: cover;
+}
+.person9 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/person9.jpg") no-repeat center center;
+  background-size: cover;
+}
+.person10 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/person10.jpg") no-repeat center center;
+  background-size: cover;
+}
+.person11 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/person11.jpg") no-repeat center center;
+  background-size: cover;
+}
+.person12 {
+  height: 100%;
+  width: 100%;
+  background: url("./images/person12.jpg") no-repeat center center;
+  background-size: cover;
+}
+.contact-bar {
+  width: 100%;
+  height: 400px;
+  background: #000000;
+
+}
+.contact-content {
+  display: flex;
+  padding-top: 20px;
+}
+.contact-col {
+  width: 25%;
+}
+.contact-col ul li {
+  display: block;
+  color: #ffffff;
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.contact-col ul {
+  margin: 30px 0 30px 0;
 }
